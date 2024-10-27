@@ -16,7 +16,7 @@ It offers publishable **configuration**, **migrations**, and **service provider*
 
 1. **Install the package via Composer:**
 ```bash
-composer require abdelrahmandwedar/laravel-cashier-paymob
+composer require abdelrahman-dwedar/laravel-cashier-paymob
 ```
 
 2. Set environment variables in .env:
