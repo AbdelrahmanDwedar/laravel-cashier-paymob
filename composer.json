@@ -1,5 +1,5 @@
 {
-    "name": "abdelrahmandwedar/laravel-cashier-paymob",
+    "name": "abdelrahman-dwedar/laravel-cashier-paymob",
     "description": "PayMob payment driver for Laravel Cashier",
     "keywords": ["laravel", "paymob", "billing", "cashier"],
     "type": "library",
@@ -14,17 +14,18 @@
         "pestphp/pest-plugin-laravel": "^2.0",
         "orchestra/testbench": "^9.0",
         "phpunit/phpunit": "^10.0",
-        "laravel/sail": "^1.0"
+        "laravel/sail": "^1.0",
+        "laravel/pint": "^1.18"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Abdelrahmandwedar\\LaravelCashierPaymob\\": "src/"
+            "AbdelrahmanDwedar\\LaravelCashierPaymob\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Abdelrahmandwedar\\LaravelCashierPaymob\\Tests\\": "tests/"
+            "AbdelrahmanDwedar\\LaravelCashierPaymob\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -36,7 +37,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "YourVendor\\CashierPaymob\\CashierPaymobServiceProvider"
+                "AbdelrahmanDwedar\\LaravelCashierPaymob\\CashierPaymobServiceProvider"
             ]
         }
     },
@@ -49,5 +50,5 @@
         "test": "vendor/bin/pest",
         "test-coverage": "vendor/bin/pest --coverage"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
