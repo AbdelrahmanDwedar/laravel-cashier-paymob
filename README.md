@@ -7,8 +7,8 @@ It offers publishable **configuration**, **migrations**, and **service provider*
 
 ---
 
-## **Warning**
-⚠️ **This package is still under development**. Expect breaking changes as features are added and refined. We recommend testing it in a development environment until the first stable release.
+> [!WARNING]
+> **This package is still under development**. Expect breaking changes as features are added and refined. We recommend testing it in a development environment until the first stable release.
 
 ---
 
