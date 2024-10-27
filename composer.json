@@ -1,0 +1,53 @@
+{
+    "name": "abdelrahmandwedar/laravel-cashier-paymob",
+    "description": "PayMob payment driver for Laravel Cashier",
+    "keywords": ["laravel", "paymob", "billing", "cashier"],
+    "type": "library",
+    "require": {
+        "php": "^8.3",
+        "laravel/framework": "^11.0",
+        "laravel/cashier": "^15.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.0",
+        "pestphp/pest-plugin-laravel": "^2.0",
+        "orchestra/testbench": "^9.0",
+        "phpunit/phpunit": "^10.0",
+        "laravel/sail": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Abdelrahmandwedar\\LaravelCashierPaymob\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Abdelrahmandwedar\\LaravelCashierPaymob\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdelrahman Dwedar",
+            "email": "abdelrahman.dwedar.7350@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YourVendor\\CashierPaymob\\CashierPaymobServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage"
+    },
+    "minimum-stability": "dev"
+}
